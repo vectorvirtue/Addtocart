@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
 <body>
     <header>
@@ -13,8 +15,8 @@
       </div>
       <nav>
         <a href="">Home</a>
-      <div class="flex">
-        <a href="">Categories</a>
+      <div class="">
+        <a href="productpage.html">Categories</a>
         <img src="Vector (9).png" alt="Dropdown Icon">
       </div>
         <a href="">Contact Us</a>
@@ -48,7 +50,11 @@
           <div class="featured">Featured Products</div>
           <div class="txt">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla fringilla nunc in molestie feugiat. Nunc auctor consectetur elit, quis pulvina.</div>
         </div>
-        <div class="boxes">
+        <div class="boxes"
+        data-aos="fade-right"
+        data-aos-easing="linear"
+        data-aos-duration="1500">
+         
           <div class="box" id="boxes">
       
         </div>
@@ -62,7 +68,9 @@
     <div class="bx">
       <div class="uno">View Our Range Of Categories</div>
       <div class="duo">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam.</div>
-      <div class="join">
+      <div class="join" data-aos="zoom-down"
+      data-aos-easing="linear"
+      data-aos-duration="1500">
          <div class="join1" id="one"><div class="in">Bedroom Furniture</div></div>
          <div class="join2">
         <div class="join3" id="two">Living Room Furniture </div>
@@ -81,58 +89,17 @@
          </div>
         <div class="bg"><button>View All</button><span><img src="Vector (Stroke).png" alt=""></span></div>
         </div>
-        <div class="boxes" id="bx">
-          <div class="box"><div class="num">-13%</div>
-        <h3>Double Bed & Side Tables</h3>
-          <div class="numbers">
-           <div class="one"> $230.00</div>
-           <div class="two"> $200.00</div>
-           <img src="add_a73igur3kxgy 1.png" alt="">
-          </div>
-        </div>
-          <div class="box"><div class="num">-13%</div> <h3>Double Bed & Side Tables</h3>
-          <div class="numbers">
-           <div class="one"> $230.00</div>
-           <div class="two"> $200.00</div>
-           <img src="add_a73igur3kxgy 1.png" alt="">
-          </div></div>
-          <div class="box"><div class="num">-13%</div> <h3>Double Bed & Side Tables</h3>
-          <div class="numbers">
-           <div class="one"> $230.00</div>
-           <div class="two"> $200.00</div>
-           <img src="add_a73igur3kxgy 1.png" alt="">
-          </div></div>
-          <div class="box"><div class="num">-13%</div> <h3>Double Bed & Side Tables</h3>
-          <div class="numbers">
-           <div class="one"> $230.00</div>
-           <div class="two"> $200.00</div>
-           <img src="add_a73igur3kxgy 1.png" alt="">
-          </div></div>
-          <div class="box"><div class="num">-13%</div> <h3>Double Bed & Side Tables</h3>
-          <div class="numbers">
-           <div class="one"> $230.00</div>
-           <div class="two"> $200.00</div>
-           <img src="add_a73igur3kxgy 1.png" alt="">
-          </div></div>
-          <div class="box"><div class="num">-13%</div> <h3>Double Bed & Side Tables</h3>
-        <div class="numbers">
-         <div class="one"> $230.00</div>
-         <div class="two"> $200.00</div>
-         <img src="add_a73igur3kxgy 1.png" alt="">
-        </div></div>
-        <div class="box"><div class="num">-13%</div> <h3>Double Bed & Side Tables</h3>
-        <div class="numbers">
-         <div class="one"> $230.00</div>
-         <div class="two"> $200.00</div>
-         <img src="add_a73igur3kxgy 1.png" alt="">
-        </div></div>
-        <div class="box"><div class="num">-13%</div> <h3>Double Bed & Side Tables</h3>
-        <div class="numbers">
-         <div class="one"> $230.00</div>
-         <div class="two"> $200.00</div>
-         <img src="add_a73igur3kxgy 1.png" alt="">
-        </div></div>
-        </div>
+        <div class="boxes" 
+        data-aos="fade-up"
+     data-aos-anchor-placement="top-center"
+        data-aos-duration="2000"
+        >
+          
+       <div class="c" id="bx">
+
+       </div>
+          
+      </div>
       </div>
         
         
@@ -236,68 +203,152 @@
           <img src="yahoo-news-img 3.png" alt="">
         </div>
 
-
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
         <script>
           const Furniture = [
+            
           {
+            //0
         "id": 347063096921192,
         "imageUrl": "https://images.unsplash.com/photo-1618773928121-c32242e63f39?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Hp Laptop 15 INTEL CELERON Quad Core 8GB RAM -1TB HDD Windows 11 + USB Light For Keyboard",
         "price": "₦ 180,000"
     },
     {
+      //1
         "id": 44010871036110,
         "imageUrl": "https://images.unsplash.com/photo-1616594039964-ae9021a400a0?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Hp Pavilion 14 - Intel Core I3 12GB RAM- 12TH GEN- 256GB SSD",
         "price": "₦ 177,900"
     },
+
     {
+      //2
         "id": 33747357734586,
         "imageUrl": "https://images.unsplash.com/photo-1595526114035-0d45ed16cfbf?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Hp Notebook 15- AMD RYZEN 3 - 16GB RAM/1TB HDD 2.6GH",
         "price": "₦ 199,000 "
     },
     {
+      //3
         "id": 207613908913932,
         "imageUrl": "https://images.unsplash.com/flagged/photo-1556438758-8d49568ce18e?q=80&w=1774&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
         "price": "₦ 99,000"
     },
     {
+      //4
         "id": 422958137125309,
         "imageUrl": "https://images.unsplash.com/photo-1591079381491-cb2c19ce7f15?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Hp 250 G8 Intel Celeron Dualcore,8GB RAM,1TB HDD,Wins 10pro",
         "price": "₦ 212,800 "
     },
     {
+      //5
         "id": 94859525923948,
         "imageUrl" :"https://images.unsplash.com/photo-1598928506311-c55ded91a20c?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
         "price": "₦ 272,800  "
     },
     {
-        "id": 94859525923948,
+      //6
+        "id": 267052465794722,
         "imageUrl" :"https://images.unsplash.com/photo-1704040686487-a39bb894fc93?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
         "price": "₦ 272,800  "
     },
     {
-        "id": 94859525923948,
+      //7
+        "id": 340281071689344,
         "imageUrl" :"https://images.unsplash.com/photo-1505691938895-1758d7feb511?q=80&w=1770&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
         "price": "₦ 272,800  "
+    },
+
+    //popular products
+    {
+      "id": 347063096921192,
+      "imageUrl" : "https://images.unsplash.com/photo-1618220179428-22790b461013?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
+        "price": "₦ 272,800  "
+    },
+
+    {
+      "id": 304000704170291,
+      "imageUrl" : "https://images.unsplash.com/photo-1592078615290-033ee584e267?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
+        "price": "₦ 272,800  "
+    },
+
+    
+    {
+      "id": 294340881697925,
+      "imageUrl" : "https://images.unsplash.com/photo-1564078516393-cf04bd966897?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
+        "price": "₦ 272,800  "
+     
+    },
+    {
+      "id": 405344447255899,
+      "imageUrl" : "https://images.unsplash.com/photo-1609241506098-80fc37c6325f?q=80&w=1854&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
+        "price": "₦ 272,800  "
+     
+    },
+
+    {
+      "id": 66138111171699,
+      "imageUrl" : "https://images.unsplash.com/photo-1615800002234-05c4d488696c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
+        "price": "₦ 272,800  "
+     
+    },
+    {
+      "id": 50003058744678,
+      "imageUrl" : "https://images.unsplash.com/photo-1606744837616-56c9a5c6a6eb?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
+        "price": "₦ 272,800  "
+     
+    },
+    {
+      "id": 440879543291630,
+      "imageUrl" : "https://images.unsplash.com/photo-1572427734891-5592aae758b2?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
+        "price": "₦ 272,800  "
+     
+    },
+    {
+      "id": 114789754981882,
+      "imageUrl" : "https://images.unsplash.com/photo-1557374669-d1f478dc92c4?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
+        "price": "₦ 272,800  "
+     
+    },
+    {
+      "id": 93725520779233,
+      "imageUrl" : "https://images.unsplash.com/photo-1597665863042-47e00964d899?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "name": "Hp Stream 11 Pro- Intel Celeron - 4GB RAM - 64GB SSD Windows 10 Pro+ Mouse & USB LIGHT FOR Keyboard",
+        "price": "₦ 272,800  "
+     
     }
+
+
+
+
 ];
+
 
     function display (){
 
    const ab = 
    Furniture.slice(0,4)
    console.table(ab)
-   const dc = Furniture.slice(4 & 7)
-   console.table(dc)
   
-    const map = ab.map(function(info){
+  
+    const ap = ab.map(function(info){
    return ` <div class="boxes">
     <div class="num">-13%</div>
           <div class="box" id="boxes">
@@ -314,12 +365,39 @@
           </div>
          </div>`
     })
-  const show = document.getElementById('boxes')
-  const move = map.join("")
-  show.innerHTML = move;
+  const display = document.getElementById('boxes')
+  const join = ap.join("")
+  display.innerHTML = join;
 
 
-   const one = document.getElementById('one').value
+  let bg = "https://images.unsplash.com/photo-1591079381491-cb2c19ce7f15?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D";
+
+   const one = document.getElementById('one');
+   one.style.backgroundImage = `url(${bg})`
+
+   const slice = Furniture.slice(8, 17);
+
+const map = slice.map(function (define) {
+  return ` <div class="boxes">
+          <div class="box" id="boxes">
+       
+        <div class="image">
+<img src="${define.imageUrl}" alt="">
+        </div>
+     
+        </div>
+        <div class="numbers">
+           <div class="one"> $230.00</div>
+           <div class="two"> $200.00</div>
+           <img src="add_a73igur3kxgy 1.png" alt="">
+          </div>
+         </div>`;
+});
+
+const show = document.getElementById('bx');
+const move = map.join('');
+show.innerHTML = move;
+
   }display ()
           </script>
 </body>
